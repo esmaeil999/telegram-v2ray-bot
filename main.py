@@ -13,7 +13,7 @@ import asyncio
 nest_asyncio.apply()
 
 # مشخصات تلگرام
-TELEGRAM_TOKEN = "8043475500:AAF4ecEXLworcDmH04_zUdrS8bDVWhxQLmc"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = 7463676240
 
 # لینک مخازن گیت‌هاب
