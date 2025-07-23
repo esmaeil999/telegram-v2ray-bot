@@ -14,7 +14,7 @@ nest_asyncio.apply()
 
 # مشخصات تلگرام
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = 7463676240
+CHAT_ID = int(os.getenv("CHAT_ID"))
 
 # لینک مخازن گیت‌هاب
 GITHUB_LINKS = {
